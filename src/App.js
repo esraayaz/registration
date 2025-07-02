@@ -1,6 +1,7 @@
 import "./App.css";
 import { useState } from "react";
-import { validateEmail } from "../src/utils";
+import { validateEmail } from "./Components/utils.js";
+import Footer from "./Components/Footer.js";
 
 function App() {
   const [firstName, setFirstName] = useState("");
@@ -158,6 +159,7 @@ function App() {
           </button>
         </fieldset>
       </form>
+      <Footer />
     </div>
   );
 }
