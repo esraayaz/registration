@@ -2,12 +2,6 @@ import "./App.css";
 import { useState } from "react";
 import { validateEmail } from "../src/utils";
 
-const PasswordErrorMessage = () => {
-  return (
-    <p className="FieldError">Password should have at least 8 characters</p>
-  );
-};
-
 function App() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
