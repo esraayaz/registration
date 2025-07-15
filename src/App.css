@@ -11,17 +11,14 @@
 }
 
 fieldset {
-  display: flex;
   width: 480px;
-  padding: 16px;
   border: 1.2px solid #ccc;
   border-radius: 4px;
-  flex-direction: column;
 }
 
 label {
   margin-bottom: 8px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 sup {
@@ -107,4 +104,10 @@ button:hover {
   color: #0f96d4;
   cursor: pointer;
   transition: 0.5s ease;
+}
+
+@media screen and (max-width: 480px) {
+  fieldset {
+    width: 300px;
+  }
 }
