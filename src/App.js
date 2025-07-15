@@ -47,7 +47,7 @@ function App() {
   }
 
   function hasNoRepeats(password) {
-    return !/(.).*?\1/.test(password); // aynı harf ardışık veya tekrar ediyorsa false
+    return !/(.).*?\1/.test(password);
   }
 
   function hasNoName(password, firstName, lastName) {
