@@ -93,6 +93,7 @@ button:hover {
 .signature {
   text-align: center;
   margin-top: 30px;
+  justify-content: center;
 }
 
 .signature a {
@@ -101,6 +102,16 @@ button:hover {
 }
 
 .signature a:hover {
+  color: #0f96d4;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+#repo {
+  text-decoration: none;
+  color: darkblue;
+}
+
+#repo:hover {
   color: #0f96d4;
   cursor: pointer;
   transition: 0.5s ease;
