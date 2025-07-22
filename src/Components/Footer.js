@@ -13,7 +13,7 @@ function Footer() {
         <span> | </span>
         <a
           id="repo"
-          href="https://github.com/esraayaz/calculator"
+          href="https://github.com/esraayaz/registration"
           target="_blank"
           rel="noopener noreferrer"
         >
